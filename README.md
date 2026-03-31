@@ -47,7 +47,7 @@ ZHIPUAI_API_KEY=你的密钥
 ```text
 Agent Simulation Sandbox/
   ├─ .gitignore           # Git 忽略配置（包含 .env、虚拟环境等）
-  ├─ .env                 # 存放 ZHIPUAI_API_KEY（不应提交到仓库）
+  ├─ .env                 # 存放 ZHIPUAI_API_KEY
   ├─ requirements.txt     # Python 依赖（含 zhipuai SDK）
   ├─ llm_client.py        # 基于 zhipuai SDK 的 LLM 封装（异步包装）
   ├─ models.py            # 基础数据结构：AgentProfile / AgentState / Post / Memory
