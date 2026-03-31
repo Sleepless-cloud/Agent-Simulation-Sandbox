@@ -1,0 +1,38 @@
+# Python 编译产物
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境
+.venv/
+venv/
+env/
+.envrc
+
+# 环境配置与密钥
+.env
+*.env.local
+
+# 日志与运行时文件
+*.log
+logs/
+
+# 单元测试与覆盖率
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE / 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Jupyter / 临时文件
+.ipynb_checkpoints/
+*.tmp
+*.bak
+
